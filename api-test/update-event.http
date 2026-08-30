@@ -1,0 +1,11 @@
+PUT http://localhost:8080/api/v1/events/1
+content-type: application/json
+X-Owner-Id: 1
+
+{
+  "name": "Updated test event",
+  "description": "A test event",
+  "location": "Test location (Updated!)",
+  "dateTime": "2025-01-01T15:30:00Z",
+  "availableTickets": 100
+}

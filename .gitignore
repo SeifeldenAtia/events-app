@@ -1,0 +1,39 @@
+# SQLite database (generated at runtime, not part of source)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/main
+/events-app
+
+# Test / coverage output
+*.test
+*.out
+
+# Logs
+*.log
+
+# Go workspace files (only relevant if using multi-module workspaces)
+go.work
+go.work.sum
+
+# Environment files (never commit secrets)
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+.devdbrc
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

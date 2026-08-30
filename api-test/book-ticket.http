@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/v1/events/1/bookings
+content-type: application/json
+X-User-Id: 42
+
+{
+  "quantity": 6
+}
